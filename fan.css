@@ -1,0 +1,93 @@
+*{margin: 0; padding: 0;}
+
+body{
+    background: whitesmoke;
+    margin: 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+header{
+    text-align: center;
+    border: .2rem solid darkolivegreen;
+    max-width:50rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: none;
+    
+}
+
+main{
+    
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+
+
+h1{ 
+}
+
+h2{  
+    margin: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 1rem;
+    padding: 12px;
+    font-family: 'Questrial', sans-serif;
+    color: darkolivegreen;
+    
+    
+}
+a:hover{
+    background-color: darkolivegreen;
+    text-decoration: line-through;
+    color: whitesmoke;
+}
+
+img{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 9rem;
+    border: .2rem solid darkolivegreen;
+
+   
+}
+
+section{
+    border: .2rem solid darkolivegreen;
+    margin: 2rem 0;
+    border-left: .5rem double darkolivegreen;
+}
+
+section h3{
+    margin-top: 3rem;
+    margin: 0;
+    background-color: darkolivegreen;;
+    color: whitesmoke;
+    padding: 2rem;
+    font-size: 5rem;
+    border-bottom: .2rem solid darkolivegreen;
+    text-align: center;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 900;
+    
+    
+}
+
+section p{
+color: darkolivegreen;
+    margin: 0;
+    margin-bottom: 3rem;
+    padding: 2rem ;
+    font-size: 1rem;
+    
+  
+    
+}
+footer{
+    text-align: center;
+    background-color: bisque;
+}
