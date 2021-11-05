@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: coral;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav {
+    font-family: 'Zen Kurenaido', sans-serif;
+    margin: 3em;
+    padding: 2rem;
+}
+
+a{
+    
+    color: cornsilk;    
+}
+a:hover{
+    background-color: cornflowerblue;
+    color: cornsilk;
+}

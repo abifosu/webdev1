@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 225, 1);
+    font-family: 'Share Tech Mono', monospace;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
+#load{
+    margin-bottom: -15em;
+    margin-left: -11rem;
+    
+}
+.bar{
+    margin-top: 0;
+    width: 15rem;
+    height: 2rem;
+    background-color: rgb(83, 192, 235);
+
+    animation: bars 7s infinite linear;
+}
+
+@keyframes bars{
+0%{
+    width:0;
+}
+60%{
+    width:24%;
+}
+85%{
+    width:75%;
+    transform: scale(15,0);
+}
+100%{
+    width: 15rem;
+    transform: scale(50,50);
+    background-color: rgb(250, 168, 114);
+}
+}
+
+
+footer nav {
+    font-family: 'Zen Kurenaido', sans-serif;
+    background-color: coral;
+    margin-top: 5rem;    
+
+    position: fixed;
+    bottom:1px;
+    right: 2px;
+}
+
+a{
+    color: rgb(240, 242, 166);
+}
+
+a:hover{
+    background-color: cornflowerblue;
+    color: rgb(240, 242, 166);
+}

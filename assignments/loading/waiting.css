@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(26, 27, 37);
+    
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
+.bar_a{
+    height: 100px;
+    width: 40px;
+    background-color: rgb(240, 242, 166);
+    margin: 2rem 0;
+
+    animation:wait 3s infinite; 
+}
+@keyframes wait{
+    
+    0%{
+        background-color: purple;
+        transform: scale(0,1);
+    }
+    30%{
+        background-color: rgb(226, 91, 199) ;
+    }
+    60%{
+        transform: scale(0,1);
+        background-color: rgb(42, 100, 165) ;
+    }
+    100%{
+        background-color: rgb(240, 242, 166);
+        transform: scale(10,0);
+    }
+}
+
+.bar_b{
+    height: 100px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+
+    animation:again 4s infinite ; 
+}
+@keyframes again{
+
+    0%{
+        transform: scale(0,1);
+        background-color: rgb(218, 4, 0);
+    }
+   
+    60%{
+        background-color: rgb(255, 205, 5);
+
+    }
+    80%{
+        background-color: rgb(52, 135, 4);
+    }
+    100%{
+        transform: scale(5,0);
+        background-color: rgb(70, 45, 181);
+    }
+}
+footer nav {
+    font-family: 'Zen Kurenaido', sans-serif;
+    background-color: coral;
+    margin-top: 5rem;    
+
+    position: fixed;
+    bottom:1px;
+    right:2px;
+
+}
+
+a{
+    color: rgb(240, 242, 166);
+}
+
+a:hover{
+    background-color: cornflowerblue;
+    color: rgb(240, 242, 166);
+}
