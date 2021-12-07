@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+}
+
+/* hamburger menu start*/
+
+
+
+
+
+
+
+
+
+
+
+/* hamburger menu ends*/
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/annie-spratt-ihDcta7Kvqg-unsplash.jpg);
+    background-size: cover;
+    min-height: 90vh;
+}
+
+
+.hero-text{
+    text-align: center;
+    color: orange;
+    font-size: 72px;
+
+}
+
+.hero-sub{
+    color:white;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 1em 1rem;
+    color: whitesmoke;
+}
+
+
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: green;
+}
+
+a:hover{
+    color: honeydew;
+}
+
+.art{
+    width: 100%;
+}
+
+
+.gallery{
+display: grid;
+grid-template-columns:1fr;
+gap: .55em;
+
+}
+
+footer{
+    margin-top: 2em;
+    padding: 2rem;
+    border: 2px solid rgb(255, 255, 255);
+    color: whitesmoke;
+    font-size: 12px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 720px) {
+
+body{
+    background-color: green;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    margin: 0 .5em;
+}
+
+} /* end of 720px screen*/
+
+@media only screen and (min-width: 1020px){
+
+body{
+    background-color: orange ;
+}
+
+.gallery{
+    grid-template-columns: 1 fr 1fr 1fr;
+
+}
+
+}/* end of 1020px screen*/
+
+ 
