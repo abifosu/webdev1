@@ -1,0 +1,151 @@
+/*fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+    
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap');
+
+
+
+
+
+
+
+
+
+*{
+    margin:0;
+    padding: 0; 
+    box-sizing: border-box;
+    }
+
+body{
+    font-family: 'Playfair Display', serif;
+    }
+
+.hero{
+    
+    height: 90vh;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header{
+    text-align: right;
+    color: coral;
+}
+
+main{
+    padding: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section{
+    padding: 2rem;
+    margin: 1rem 1px;
+}
+
+.paragraphy_one{
+    padding-top: 1rem;
+    font-size: 12px;
+}
+
+img{
+    width:100%;
+    /*I get the images from Unsplash*/
+}
+
+.girl{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.cards{
+    margin-top:.5rem;
+    padding: 20px;
+}
+
+.cards:hover{
+    box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    
+}
+
+footer{
+    background-color: bisque;
+    text-align: center;
+    font-size: 12px;
+    padding: 2rem;
+}
+
+/* the screen gets bigger--- change the number inside (min-width:#) but the number should get bigger cause the screen is getting bigger phone, tablet-481px, desktop(laptop)702px-1080px*/
+
+/*this is tablet size*/
+@media only screen and (min-width: 481px){
+        section{
+        padding: 2rem;
+        margin: 1em 12px; 
+        }
+    
+        .number_one{
+        background-color: orange;
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+    
+      .number_two{
+        background-color: greenyellow;
+          
+        display: grid;
+        grid-template-columns: 1fr 1fr;/*1fr is one column*/ 
+        }
+
+        .number_three{
+        background-color: crimson;
+        }
+
+        .paragraphy_one{
+        padding: 1rem;
+        place-self: center stretch;
+        font-size: 15px;
+        }
+
+}/*end of 480px*/
+
+@media only screen and (min-width: 1028px){
+     section{
+        padding: 0;
+    }
+     
+        .number_one{
+        background-color: lemonchiffon;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+
+      .number_two{
+        background-color: antiquewhite;
+          
+        display: grid;
+        grid-template-columns: 1fr 1fr;/*1fr is one column*/
+        }  
+
+        .number_three{
+        background-color: crimson;
+    
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        }
+    
+        .paragraphy_one{
+        font-size: 18px;
+    }
+    
+    }
+
+    
+    
+    
+    
+
