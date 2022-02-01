@@ -17,12 +17,11 @@ body{
 .hero{
     
     height: 90vh;
-    
+    background-image: ;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-
 header{
     text-align: right;
     color: coral;
